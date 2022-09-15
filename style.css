@@ -1,0 +1,41 @@
+.big_container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.small_container{
+    width: 28%;
+    border-radius: 4px;
+    box-shadow: rgba(119, 119, 187, 0.2) 0px 7px 29px 0px;
+    padding: 20px
+}
+
+.small_container img{
+    height: 200px;
+    width: 100%;
+} 
+
+.small_container button{
+    width: 100%;
+    padding: 10px;
+    background: #189bec;
+    color: white;
+    font-size: 18px;
+    border: 2px solid #189bec;
+    border-radius: 4px;
+}
+
+.small_container button:hover{
+    color: #189bec;
+    background: white;
+    border: 2px solid #189bec;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .small_container{
+        width: 90%
+    }
+}
